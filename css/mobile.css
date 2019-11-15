@@ -1,0 +1,80 @@
+* {
+
+    margin-bottom: 1px;
+    padding: 0px;
+
+}
+
+
+.maingrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "maingridheader" "maingriddiv" "maingridarticle" "maingridfooter";
+
+
+}
+
+/*---Header Design---*/
+.maingridheader {
+    width: 100%;
+    grid-area: maingridheader;
+}
+
+/*Making SubGrid for Header*/
+.maingridheader > div {
+    height: 100%;
+    opacity: 0.74;
+    background: #000000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+
+  padding-top: 2%;
+
+  text-align: center;
+}
+
+/*Select subcell a */
+.maingridheader > div > a {
+    width: 100%;
+    font-family: STSongti-TC-Bold;
+    color: #C6C6C6;
+
+}
+
+
+.headerfontlogo {
+    opacity: 0.74;
+    padding-right: 10px;
+
+  height: 30px;
+
+}
+
+
+.maingriddiv {
+    width: 100%;
+    grid-area: maingriddiv;
+
+}
+
+.maingriddiv > img {
+    width: 100%;
+}
+
+.maingridartice {
+    width: 100%;
+    grid-area: maingridarticle;
+
+}
+
+.maingridfooter {
+    width: 100%;
+    grid-area: maingridfooter;
+}
+
+
+
+
