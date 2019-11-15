@@ -1,9 +1,4 @@
-* {
 
-    margin-bottom: 1px;
-    padding: 0px;
-
-}
 
 
 .maingrid {
@@ -19,21 +14,19 @@
 .maingridheader {
     width: 100%;
     grid-area: maingridheader;
+    margin-bottom: 4px;
 }
 
 /*Making SubGrid for Header*/
 .maingridheader > div {
     height: 100%;
-    opacity: 0.74;
-    background: #000000;
+    opacity: 0.5;
+    background: #212121;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
     align-items: center;
-
-  padding-top: 2%;
-
-  text-align: center;
+    padding-top: 4px;
+    text-align: right;
 }
 
 /*Select subcell a */
@@ -41,6 +34,10 @@
     width: 100%;
     font-family: STSongti-TC-Bold;
     color: #C6C6C6;
+    font-size: small;
+    text-align: center;
+    font-style: oblique;
+text-decoration: none;
 
 }
 
@@ -48,8 +45,9 @@
 .headerfontlogo {
     opacity: 0.74;
     padding-right: 10px;
+    text-align: center;
 
-  height: 30px;
+    height: 30px;
 
 }
 
