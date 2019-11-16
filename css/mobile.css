@@ -19,9 +19,6 @@ body {
     width: 100%;
     grid-area: maingridheader;
     margin-bottom: 4px;
-    position: fixed;
-    margin: 2px;
-    padding: 0px;
 
 }
 
@@ -104,6 +101,8 @@ body {
     width: 100%;
     grid-area: maingridfooter;
     background-color: #111110;
+    height: 80px;
+    margin-bottom: auto;
 }
 
 
