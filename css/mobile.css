@@ -1,5 +1,8 @@
 
-
+body {
+    background-color: rgb(228, 228, 228);
+    margin: 0px;
+}
 
 .maingrid {
     display: grid;
@@ -15,12 +18,16 @@
     width: 100%;
     grid-area: maingridheader;
     margin-bottom: 4px;
+    position: fixed;
+    margin: 2px;
+    padding: 0px;
+
 }
 
 /*Making SubGrid for Header*/
 .maingridheader > div {
     height: 100%;
-    background: #212121;
+    background: #323131;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -31,12 +38,12 @@
 /*Select subcell a */
 .maingridheader > div > a {
     width: 100%;
-    font-family: STSongti-TC-Bold;
-    color: #C6C6C6;
-    font-size: small;
+    font-family: -webkit-pictograph;
+    color: white;
+    font-size: large;
     text-align: center;
-    font-style: oblique;
-text-decoration: none;
+    font-style: italic;
+    text-decoration: none;
 
 }
 
@@ -46,14 +53,21 @@ text-decoration: none;
     padding-right: 10px;
     text-align: left;
 
-    height: 30px;
+    height: 3vh;
 
 }
+
+
+/*---------Fin Header-----------*/
 
 
 .maingriddiv {
     width: 100%;
     grid-area: maingriddiv;
+    margin-top: 34px;
+    background-color: #111110;
+    text-align: center;
+    background-color: #111110;;
 
 }
 
@@ -61,16 +75,39 @@ text-decoration: none;
     width: 100%;
 }
 
-.maingridartice {
+
+/*-----------Article 1 column 6---rows-----------*/
+.maingridarticle {
     width: 100%;
     grid-area: maingridarticle;
+    text-align: center;
+}
+
+.maingridarticle > div > h1 {
+    font-family: STSongti-TC-Bold;
+    font-size: 100%;
+    color: #323131;
+    text-align: center;
+}
+
+.maingridarticle > div > h3 {
+    font-family: STSongti-TC-Bold;
+    font-size: 100%;
+    color: #111110;
+    line-height: 13px;
 
 }
 
 .maingridfooter {
     width: 100%;
     grid-area: maingridfooter;
+    background-color: #111110;
+    position:sticky;
+    background-blend-mode: darken;
 }
+
+
+
 
 
 
