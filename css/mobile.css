@@ -20,7 +20,6 @@
 /*Making SubGrid for Header*/
 .maingridheader > div {
     height: 100%;
-    opacity: 0.5;
     background: #212121;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -45,9 +44,10 @@ text-decoration: none;
 .headerfontlogo {
     opacity: 0.74;
     padding-right: 10px;
-    text-align: center;
+    text-align: left;
 
     height: 30px;
+    color: aquamarine;
 
 }
 
