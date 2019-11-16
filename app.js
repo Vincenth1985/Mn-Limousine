@@ -1,60 +1,22 @@
-const userMaker = {
-    name: "",
-    age: "",
-    married: "",
-    purchase: ["", "", ""],
-
-    sayname: () => {
-        return this;
-    }
-};
-
-const user1 = userMaker.sayname();
-
-user1.name = "vincent";
-user1.age = 23;
-user1.married = true;
-user1.purchase = ["phone", "laptop", "car"];
+AOS.init({
+    duration: 1200,
+});
 
 
-let bool = true;
-
-// while (bool) {
+// <div class="item" data-aos="fade-up">1</div>
+//     <div class="item" data-aos="fade-down">2</div>
+//     <div class="item" data-aos="fade-right">3</div>
+//     <div class="item" data-aos="fade-left">4</div>
 //
-//     console.log(user1.age)
-//     console.log(user1.name)
-//     console.log(user1.married)
-//     console.log(user1.purchase)
+//     <div class="item" data-aos="zoom-in">5</div>
+//     <div class="item" data-aos="zoom-out">6</div>
 //
-//     bool = false;
+//     <div class="item" data-aos="slide-up">7</div>
 //
-// }
-
-
-// for (let i = 0; i < user1.purchase.length; i++) {
-//
-// }
-
-
-for (const name of user1.purchase) {
-    console.log(name)
-
-}
-
-const text = document.querySelector(".title")
-const changeColor = document.querySelector(".changeColor")
-
-
-changeColor.addEventListener('click',function () {
-    text.classList.toggle("change")
-
-
-})
-
-
-
-
-
+//     <div class="item" data-aos="flip-up">8</div>
+//     <div class="item" data-aos="flip-down">9</div>
+//     <div class="item" data-aos="flip-right">10</div>
+//     <div class="item" data-aos="flip-left">11</div>
 
 
 

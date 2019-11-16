@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/testing.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+
 </head>
 
 
@@ -32,24 +35,27 @@
 </div>
 
 
-<article class="maingridarticle">
+<article data-aos="fade-right" class="maingridarticle">
 
-    <div>
+    <div data-aos="fade-right">
         <h1> SERVICE DE CHAUFFER PRIVE</h1>
         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Morbi sed erat condimentum, malesuada mauris sit amet,
             venenatis augue.</h3>
+        <img src="img/mobile-mercedes-photo3@2x.png">
+
 
     </div>
-    <img src="img/mobile-mercedes-photo3@2x.png">
 
-    <div>
+
+    <div data-aos="fade-right">
         <h1>VEHICULE COMFORTABLE ET LUXUEUX</h1>
         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Morbi sed erat condimentum.</h3>
+        <img src="img/mobile-mercedes-amg-e-43-40668-hd-1@2x.png">
+
     </div>
 
-    <img src="img/mobile-mercedes-amg-e-43-40668-hd-1@2x.png">
 
     <div>
         <h1 class="title">VOYAGER SERAINEMENT</h1>
@@ -58,7 +64,7 @@
             consectetur adipiscing elit.Morbi sed erat condimentum.</h3>
     </div>
 
-    <img src="img/mobile-mercedesprive@2x.png">
+    <img data-aos="fade-right" src="img/mobile-mercedesprive@2x.png">
 
 
 </article>
@@ -72,6 +78,10 @@
 </footer>
 
 <script src="app.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 
 </body>

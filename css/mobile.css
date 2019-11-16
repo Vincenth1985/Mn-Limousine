@@ -17,6 +17,7 @@
 
 }
 
+
 /*---Header---*/
 
 .maingridheader {
@@ -65,7 +66,6 @@
     align-items: center;
     position: relative;
 }
-
 
 .maingriddiv > img {
     width: 100%;
@@ -132,6 +132,21 @@
     width: 100%;
 
 
+}
+
+
+
+
+
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: #ccc;
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
 }
 
 
