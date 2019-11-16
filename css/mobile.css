@@ -3,7 +3,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-overflow-x: hidden;
 
 }
 
@@ -104,6 +103,11 @@ overflow-x: hidden;
     justify-items: center;
 }
 
+maingridarticle > div {
+
+    width: 100%;
+}
+
 .maingridarticle > div > h1 {
 
     margin-top: 2vh;
@@ -127,7 +131,7 @@ overflow-x: hidden;
 
 }
 
-.maingridarticle > img {
+.maingridarticle > div > img {
 
     width: 100%;
 
