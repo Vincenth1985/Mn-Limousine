@@ -22,26 +22,25 @@
     width: 100%;
     grid-area: maingridheader;
     margin-bottom: 4px;
-
 }
 
 /*Making SubGrid for Header*/
 .maingridheader > div {
     width: 100%;
-    min-height: 8vh;
     background: black;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     align-items: center;
+    gap: 1vh;
+    height: 10vh;
 }
 
 /*Select subcell a */
 .maingridheader > div > a {
     width: 100%;
     font-family: 'Poppins', sans-serif;
-    letter-spacing: 2px;
     color: white;
-    font-size: large;
+    font-size: 2vh;
     text-align: center;
     font-style: italic;
     text-decoration: none;
@@ -81,7 +80,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-justify-items: center;
+    justify-items: center;
 }
 
 .maingridarticle > div > h1 {
@@ -89,11 +88,9 @@ justify-items: center;
     margin-top: 2vh;
     font-family: 'Poppins', sans-serif;
     font-style: oblique;
-
-
     font-size: 100%;
     color: #323131;
-flex-basis: 20%
+    height: 5vh;
 }
 
 .maingridarticle > div > h3 {
@@ -112,7 +109,6 @@ flex-basis: 20%
 .maingridarticle > img {
 
     width: 100%;
-
 
 
 }
