@@ -11,7 +11,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: "maingridheader" "maingriddiv" "maingridarticle" "maingridfooter";
+    grid-template-areas: "maingridfooter" "maingriddiv" "maingridarticle" "maingridheader";
 
 
 }
@@ -36,7 +36,7 @@
 
 .maingridheader > div > a {
     width: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     color: white;
     font-size: 2vh;
     text-align: center;
@@ -163,6 +163,7 @@ maingridarticle > div {
     background-color: #111110;
     height: 80px;
     margin-bottom: auto;
+    position: fixed;
 }
 
 
