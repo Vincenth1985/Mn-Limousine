@@ -1,9 +1,17 @@
 
-body {
+* { margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
 
 }
 
-@media (max-width: 720px) {
+
+
+
+
+
 
 
     .maingrid {
@@ -25,20 +33,19 @@ body {
 
     /*Making SubGrid for Header*/
     .maingridheader > div {
-        height: 100%;
         width: 100%;
-        background: #323131;
+        min-height: 8vh;
+        background: black;
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
-        padding-top: 4px;
-        text-align: right;
     }
 
     /*Select subcell a */
     .maingridheader > div > a {
         width: 100%;
-        font-family: -webkit-pictograph;
+        font-family: 'Poppins',sans-serif;
+        letter-spacing: 2px;
         color: white;
         font-size: large;
         text-align: center;
@@ -62,10 +69,9 @@ body {
     .maingriddiv {
         width: 100%;
         grid-area: maingriddiv;
-        margin-top: 34px;
+        margin-bottom: 2vh;
         background-color: #111110;
         text-align: center;
-        background-color: #111110;;
 
     }
 
@@ -79,33 +85,42 @@ body {
         width: 100%;
         grid-area: maingridarticle;
         text-align: center;
-        margin-bottom: 20px;
     }
 
     .maingridarticle > div > h1 {
-        font-family: STSongti-TC-Bold;
+
+        margin-top: 2vh;
+        font-family: 'Poppins',sans-serif;
+        font-style: oblique;
+
+
         font-size: 100%;
         color: #323131;
-        text-align: center;
     }
 
     .maingridarticle > div > h3 {
-        font-family: STSongti-TC-Bold;
+
+        width: 100%;
+        font-family: 'Poppins',sans-serif;
+        font-weight: lighter;
+        letter-spacing: 1px;
+        text-align: center;
         font-size: 100%;
         color: #111110;
-        line-height: 13px;
+
 
     }
 
     .maingridfooter {
         width: 100%;
+        max-height: 8vh;
         grid-area: maingridfooter;
         background-color: #111110;
         height: 80px;
         margin-bottom: auto;
     }
 
-}
+
 
 
 
