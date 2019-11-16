@@ -12,6 +12,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "maingridfooter" "maingriddiv" "maingridarticle" "maingridheader";
+    background-color:#d9d4cf87;
 
 
 }
@@ -104,7 +105,8 @@
 
 maingridarticle > div {
 
-    width: 100%;
+    width: 80%;
+
 }
 
 .maingridarticle > div > h1 {
@@ -138,9 +140,6 @@ maingridarticle > div {
 }
 
 
-
-
-
 .item {
     width: 200px;
     height: 200px;
@@ -160,7 +159,6 @@ maingridarticle > div {
     max-height: 8vh;
     grid-area: maingridfooter;
     background-color: #111110;
-    height: 80px;
     margin-bottom: auto;
     position: fixed;
 }
