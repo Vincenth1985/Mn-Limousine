@@ -1,4 +1,4 @@
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
 
     .maingrid {
         display: grid;
@@ -7,7 +7,9 @@
         grid-template-rows: 1fr;
         grid-template-areas: "maingridheader maingridheader" "maingriddiv maingriddiv" "maingridarticle maingridarticle" "maingridfooter maingridfooter";
 
-        background-color: #d9d4cf87;
+        /*background-color: #d9d4cf87;*/
+
+        background-color:rgba(8,10,7,0.1);
 
 
     }
@@ -17,12 +19,13 @@
     .maingriddiv > div > div img {
         width: 100%;
         height: 100vh;
+        object-fit: cover;
     }
 
     .maingriddiv > div > button {
 
         position: absolute;
-        top: 87%;
+        top: 129%;
         left: 52%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -33,7 +36,6 @@
         opacity: 0.45;
         background: #000000;
         border-radius: 9px;
-        font-family: 'Playfair Display', serif;
         font-size: 110%;
         margin-top: -8%;
 
@@ -45,27 +47,34 @@
     .maingridarticle {
         width: 100%;
         grid-area: maingridarticle;
-        text-align: center;
+        text-align: left;
         display: grid;
         grid-template-columns: 50% 50%;
 
+        gap: 10px;
         grid-template: "servicesdiv comfortdiv" "voyagerdiv  transfertdiv";
+        margin: 30px;
 
-        justify-items: center;
+
     }
 
     .maingridarticle > div > h1 {
         margin-top: 2vh;
-        font-family: 'Playfair Display', serif;
         font-style: oblique;
-        font-size: 30px;
+        font-size: 20px;
         color: #323131;
         height: 4vh;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
 
-    .maingridarticle > div {
-       width: 90%;
+    .maingridarticle  div {
+        width: 99%;
+        box-shadow: 8px 6px 7px #482323c7;
+        padding: 36px;
+    }
+
+    .maingridarticle > div > img {
+        width: 70%;
     }
 
 
