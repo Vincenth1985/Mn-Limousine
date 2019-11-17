@@ -26,8 +26,9 @@
     }
 
     .maingriddiv > div > div img {
+        height: 100vh;
         width: 100%;
-        height: 45vh;
+
     }
 
     .maingriddiv > div > button {
