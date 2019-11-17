@@ -60,7 +60,7 @@
 .maingriddiv {
     width: 100%;
     grid-area: maingriddiv;
-    margin-top: 7vh;
+    margin-top: 5vh;
     margin-bottom: 2vh;
     align-items: center;
     position: relative;
@@ -153,10 +153,8 @@
 
 .maingridfooter {
     width: 100%;
-    max-height: 8vh;
     grid-area: maingridfooter;
     background-color: #111110;
-    margin-bottom: auto;
     position: fixed;
 }
 
