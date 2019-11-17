@@ -60,8 +60,8 @@
 .maingriddiv {
     width: 100%;
     grid-area: maingriddiv;
+    margin-top: 7vh;
     margin-bottom: 2vh;
-    background-color: #111110;
     align-items: center;
     position: relative;
 }
@@ -92,6 +92,12 @@
 }
 
 
+
+
+
+
+
+
 /*-----------Article-----------*/
 
 .maingridarticle {
@@ -103,9 +109,9 @@
     justify-items: center;
 }
 
-maingridarticle > div {
+.maingridarticle > div {
 
-    width: 80%;
+    width: 100%;
 
 }
 
@@ -134,22 +140,11 @@ maingridarticle > div {
 
 .maingridarticle > div > img {
 
-    width: 100%;
+    width: 85%;
 
 
 }
 
-
-.item {
-    width: 200px;
-    height: 200px;
-    margin: 50px auto;
-    padding-top: 75px;
-    background: #ccc;
-    text-align: center;
-    color: #FFF;
-    font-size: 3em;
-}
 
 
 /*-----FOOTER--------*/
