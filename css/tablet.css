@@ -1,0 +1,57 @@
+@media (min-width: 700px) {
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+
+    }
+
+
+    .maingrid {
+        display: grid;
+        grid-auto-flow: column !important;
+        grid-template-columns: 50% 50% !important;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+
+                "maingridheader maingridheader"
+                "maingriddiv maingriddiv"
+                "maingridarticle maingridarticle"
+                "maingridfooter maingridfooter";
+
+        background-color: #d9d4cf87;
+
+
+    }
+
+    .maingriddiv > div > div img {
+        width: 100%;
+        height: 45vh;
+    }
+
+    .maingriddiv > div > button {
+
+        position: absolute;
+        top: 87%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        color: white;
+        padding: 3%;
+        border: none;
+        cursor: pointer;
+        opacity: 0.45;
+        background: #000000;
+        border-radius: 9px;
+        font-family: 'Playfair Display', serif;
+        font-size: 110%;
+        margin-top: -8%;
+
+
+    }
+
+
+
+}
+
