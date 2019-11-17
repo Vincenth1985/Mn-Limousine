@@ -11,8 +11,8 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: "maingridfooter" "maingriddiv" "maingridarticle" "maingridheader";
-    background-color:#d9d4cf87;
+    grid-template-areas: "maingridheader" "maingriddiv" "maingridarticle" "maingridfooter";
+    background-color: #d9d4cf87;
 
 
 }
@@ -66,9 +66,11 @@
     position: relative;
 }
 
-.maingriddiv > img {
+
+.maingriddiv > div > div img {
     width: 100%;
-    height: auto;
+    height: 600px;
+    object-fit: cover;
 }
 
 
@@ -94,10 +96,10 @@
 }
 
 
+.slideshow {
 
 
-
-
+}
 
 
 /*-----------Article-----------*/
@@ -148,15 +150,42 @@
 }
 
 
-
 /*-----FOOTER--------*/
 
 .maingridfooter {
     width: 100%;
     grid-area: maingridfooter;
     background-color: #111110;
-    position: fixed;
 }
+
+
+/*FADE ANIMATION*/
+
+fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 7s;
+    animation-name: fade;
+    animation-duration: 7s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: 0.2;
+    }
+    to {
+        opacity: 5;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 
 
 

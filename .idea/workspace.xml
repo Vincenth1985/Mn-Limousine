@@ -12,8 +12,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -23,6 +23,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../BeysatWebsite" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -56,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573849589590</updated>
-      <workItem from="1573849592143" duration="44369000" />
+      <workItem from="1573849592143" duration="51631000" />
     </task>
     <servers />
   </component>
