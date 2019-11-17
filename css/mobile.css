@@ -71,7 +71,8 @@
     height: auto;
 }
 
-.maingriddiv > button {
+
+.maingriddiv > div > button {
 
     position: absolute;
     top: 87%;
@@ -87,6 +88,7 @@
     border-radius: 9px;
     font-family: 'Poppins', sans-serif;
     font-size: 79%;
+    margin-top: -8%;
 
 
 }
