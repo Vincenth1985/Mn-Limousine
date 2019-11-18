@@ -22,13 +22,17 @@
 
     }
 
-    .maingriddiv > div > div img {
+    .maingriddiv > div > div > img {
         width: 100%;
         height: 80vh;
         object-fit: cover;
 
 
     }
+
+
+
+
 
     .maingriddiv > div > button {
 

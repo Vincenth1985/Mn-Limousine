@@ -17,9 +17,11 @@
 
     /*---------------- MAINGRID DIV----------------------*/
     .maingriddiv > div > div img {
+
         width: 100%;
-        height: 100vh;
+        height: 83vh;
         object-fit: cover;
+        padding: 4%;
     }
 
     .maingriddiv > div > button {
