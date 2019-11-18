@@ -34,6 +34,7 @@
 
 <div class="maingriddiv">
 
+
     <div class="slideshow-container">
 
         <div class="slides">
@@ -58,7 +59,7 @@
 
 
     <div data-aos="zoom-in" data-aos-duration="2000">
-        <button>Reservez Maintenant</button>
+        <button id="res">Reservez Maintenant</button>
     </div>
 
 
@@ -78,7 +79,7 @@
     </div>
 
     <div class="comfortdiv" data-aos="fade-right">
-        <h1 class="title">VEHICULE COMFORTABLE ET LUXUEUX</h1>
+        <h1 id="Veh" class="title">VEHICULE COMFORTABLE ET LUXUEUX</h1>
         <h3>Un chauffeur expérimenté avec une voiture de luxe ou un minibus.
             Voitures VIP avec chauffeurs pour les cadres</h3>
         <img src="img/mobile-mercedes-amg-e-43-40668-hd-1@2x.png">
@@ -107,20 +108,24 @@
 
 <footer class="maingridfooter">
 
-    <img src="img/FOOTER%20LOGO.png">
+    <img class="logo" src="img/FOOTER%20LOGO.png">
 
+    <div class="languagediv">
+        <a class="language" onclick=reload("#eng")>
+            <img class="languageicon" src="https://cdn2.iconfinder.com/data/icons/world-flags-1-1/100/Britain-512.png"></a>
 
+        <a class="language" onclick=reload("#fr")>
+            <img class="languageicon"
+                 src="http://hotel.complexesantalucia.com/wp-content/themes/snaps/images/fr.png"></a>
+    </div>
 </footer>
 
 
 <script src="app.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="slideshow.js"></script>
-
-<script>
-    AOS.init();
-
-</script>
+<script>AOS.init();</script>
+<script src="multilanguage/multilanguage.js"></script>
 
 
 </body>

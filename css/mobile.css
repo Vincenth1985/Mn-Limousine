@@ -185,8 +185,39 @@ body {
     width: 100%;
     grid-area: maingridfooter;
     background-color: #111110;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template: "logo language" ;
+
+
+
 }
 
+.logo {
+
+    grid-area: logo;
+}
+
+
+
+/*----------Language---------------*/
+.language {
+    color: white;
+    cursor: pointer;
+    grid-area: language;
+
+
+}
+
+.languageicon{
+    height: 20px;
+    align-self: end;
+}
+
+.languagediv{
+    text-align: center;
+
+}
 
 /*_______________-FADE ANIMATION_____________________*/
 
@@ -214,6 +245,9 @@ fade {
         opacity: 8;
     }
 }
+
+
+
 
 
 
