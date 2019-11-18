@@ -51,5 +51,24 @@
     }
 
 
+
+
+
+
+    /*---------------LanguageLogoPosition----------------------*/
+
+
+    .languagediv {
+        display: flex;
+        flex-flow: row;
+        justify-content: end;
+        align-items: center;
+        width: 100%;
+
+
+
+    }
+
+
 }
 
