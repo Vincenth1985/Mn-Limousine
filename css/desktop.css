@@ -5,11 +5,11 @@
         grid-auto-flow: column !important;
         grid-template-columns: 50% 50% !important;
         grid-template-rows: 1fr;
-        grid-template-areas: "maingridheader maingridheader" "maingriddiv maingriddiv" "maingridarticle maingridarticle" "maingridfooter maingridfooter";
+        grid-template-areas: "maingridfooter maingridfooter" "maingriddiv maingriddiv" "maingridarticle maingridarticle" "maingridheader maingridheader";
 
         /*background-color: #d9d4cf87;*/
 
-        background-color:rgba(8,10,7,0.1);
+        background-color: rgba(8, 10, 7, 0.1);
 
 
     }
@@ -39,7 +39,6 @@
         margin-top: -10%;
 
 
-
     }
 
 
@@ -57,8 +56,6 @@
         padding-right: 150px;
 
 
-
-
     }
 
     .maingridarticle > div > h1 {
@@ -70,7 +67,7 @@
         margin-bottom: 5px;
     }
 
-    .maingridarticle  div {
+    .maingridarticle div {
         width: 99%;
         box-shadow: 8px 6px 7px #482323c7;
         padding: 36px;

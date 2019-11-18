@@ -23,7 +23,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: "maingridheader" "maingriddiv" "maingridarticle" "maingridfooter";
+    grid-template-areas: "maingridfooter" "maingriddiv" "maingridarticle" "maingridheader";
     background-color: #dbd9d787;
 
 
@@ -187,8 +187,8 @@ body {
     background-color: #111110;
     display: grid;
     grid-template-columns: 80% 20%;
-    grid-template: "logo language" ;
-
+    grid-template: "logo language";
+    position: fixed;
 
 
 }
@@ -199,8 +199,9 @@ body {
 }
 
 
-
 /*----------Language---------------*/
+
+
 .language {
     color: white;
     cursor: pointer;
@@ -208,16 +209,24 @@ body {
 
 
 }
-
-.languageicon{
+.languageicon {
     height: 20px;
-    align-self: end;
+    margin-right: 40px;
 }
 
-.languagediv{
-    text-align: center;
+.languagediv {
+    display: flex;
+    flex-flow: row;
+    justify-content: end;
+    align-items: center;
+
 
 }
+
+
+
+
+
 
 /*_______________-FADE ANIMATION_____________________*/
 
