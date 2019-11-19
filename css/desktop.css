@@ -3,9 +3,9 @@
     .maingrid {
         display: grid;
         grid-auto-flow: column !important;
-        grid-template-columns: 50% 50% !important;
+        grid-template-columns: 25% 1fr 1fr 25% !important;
         grid-template-rows: 1fr;
-        grid-template-areas: "maingridfooter maingridfooter" "maingriddiv maingriddiv" "maingridarticle maingridarticle" "maingridheader maingridheader";
+        grid-template-areas: "maingridfooter maingridfooter maingridfooter maingridfooter" "maingriddiv maingriddiv maingriddiv maingriddiv" "maingridarticle maingridarticle maingridarticle  ." "maingridheader maingridheader maingridheader maingridheader" !important;
 
         /*background-color: #d9d4cf87;*/
 
@@ -50,10 +50,12 @@
         grid-area: maingridarticle;
         text-align: left;
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 20% 20% 10% 10% 70% 10%;
+
 
         gap: 10px;
-        grid-template: "servicesdiv comfortdiv" "voyagerdiv  transfertdiv";
+        grid-template: "servicesdiv voyagerdiv" "comfortdiv ." "transfertdiv ." ;
+
         padding-left: 150px;
         padding-right: 150px;
 
@@ -63,7 +65,6 @@
     .maingridarticle > div > h1 {
         margin-top: 2vh;
         font-style: oblique;
-        font-size: 20px;
         color: #323131;
         height: 4vh;
         margin-bottom: 5px;
@@ -72,11 +73,11 @@
     .maingridarticle div {
         width: 99%;
         box-shadow: 8px 6px 7px #482323c7;
-        padding: 36px;
+
     }
 
     .maingridarticle > div > img {
-        width: 70%;
+        width: 100%;
     }
 
 
