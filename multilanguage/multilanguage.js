@@ -1,77 +1,66 @@
 var language = {
-    eng: {
-        reservez: "Order Now",
+  eng: {
+    reservez: "Order Now",
 
-        services: "PRIVATE DRIVER SERVICE",
+    services: "PRIVATE DRIVER SERVICE",
 
-        servicesExplication: "You are visiting Belgium but you do not want to waste time with taxi services or\n" +
-            "            public transport? Mn-Limousine offers a tailor-made service. You will be taken care of by a\n" +
-            "            experienced private driver all over Belgium.",
+    servicesExplication:
+      "You are visiting Belgium but you do not want to waste time with taxi services or\n" +
+      "            public transport? Mn-Limousine offers a tailor-made service. You will be taken care of by a\n" +
+      "            experienced private driver all over Belgium.",
 
+    vehiculeComfortable: "COMFORTABLE AND LUXURY VEHICLE",
 
-        vehiculeComfortable: "COMFORTABLE AND LUXURY VEHICLE",
+    vehiculeComfortableExplication:
+      "An experienced driver with a luxury car or minibus.\n" +
+      "            VIP cars with drivers for the frames",
 
-        vehiculeComfortableExplication: "An experienced driver with a luxury car or minibus.\n" +
-            "            VIP cars with drivers for the frames",
+    voyagerSerainement: "TRAVEL SERABLY",
 
+    voyagerSerainementExplication:
+      "No waste of time, no worry for the most efficient route, the greatest comfort.",
 
-        voyagerSerainement :"TRAVEL SERABLY",
+    transfert: "AIRPORT TRANSFER",
 
-        voyagerSerainementExplication : "No waste of time, no worry for the most efficient route, the greatest comfort.",
+    transfertexplication:
+      "For those who do not wish to decipher foreign public transport cards or negotiate with\n" +
+      "            local taxi companies, Mn-limousine offers a service that will take you directly to your\n" +
+      "            airport.",
 
-        transfert : "AIRPORT TRANSFER",
+    model: "Our Cars"
+  },
 
-        transfertexplication:"For those who do not wish to decipher foreign public transport cards or negotiate with\n" +
-            "            local taxi companies, Mn-limousine offers a service that will take you directly to your\n" +
-            "            airport.",
-
-
-    },
-
-    fr: {
-
-        reservez: "Reservez maintenant"
-
-    }
-
+  fr: {
+    reservez: "Reservez maintenant"
+  }
 };
 
 //define language via window hash
 if (window.location.hash) {
+  if (window.location.hash === "#eng") {
+    res.textContent = language.eng.reservez;
 
-    if (window.location.hash === "#eng") {
+    ser.textContent = language.eng.services;
+    serex.textContent = language.eng.servicesExplication;
 
-        res.textContent = language.eng.reservez;
+    veh.textContent = language.eng.vehiculeComfortable;
+    vehex.textContent = language.eng.vehiculeComfortableExplication;
 
-        ser.textContent = language.eng.services;
-        serex.textContent = language.eng.servicesExplication;
+    voy.textContent = language.eng.voyagerSerainement;
+    voyex.textContent = language.eng.voyagerSerainementExplication;
 
-        veh.textContent = language.eng.vehiculeComfortable;
-        vehex.textContent = language.eng.vehiculeComfortableExplication;
+    tra.textContent = language.eng.transfert;
+    traex.textContent = language.eng.transfertexplication;
 
-        voy.textContent= language.eng.voyagerSerainement;
-        voyex.textContent=language.eng.voyagerSerainementExplication;
+    model.textContent = language.eng.model;
+  }
 
-        tra.textContent=language.eng.transfert;
-        traex.textContent=language.eng.transfertexplication;
-
-
-
-
-
-
-
-
-
-
-    }
-
-    if (window.location.hash === "#fr") {
-        res.textContent = language.fr.reservez;
-    }
+  if (window.location.hash === "#fr") {
+    res.textContent = language.fr.reservez;
+  }
 }
 
 function reload(hash) {
-    location.assign(location.replace(hash));
-    location.reload();
+  location.assign(location.replace(hash));
+  location.reload();
 }
