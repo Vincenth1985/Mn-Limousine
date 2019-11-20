@@ -4,11 +4,12 @@
     grid-auto-flow: column !important;
     grid-template-columns: 25% 1fr 1fr 25% !important;
     grid-template-rows: 1fr;
-    grid-template-areas: "maingridfooter maingridfooter maingridfooter maingridfooter" "maingriddiv maingriddiv maingriddiv maingriddiv" "maingridarticle maingridarticle maingridarticle  ." "maingridheader maingridheader maingridheader maingridheader" !important;
+    grid-template-areas: "maingridfooter maingridfooter maingridfooter maingridfooter" "maingriddiv maingriddiv maingriddiv maingriddiv" "maingridarticle maingridarticle maingridarticle ." "maingridheader maingridheader maingridheader maingridheader" !important;
 
     /*background-color: #d9d4cf87;*/
 
     background-color: rgba(8, 10, 7, 0.1);
+    /* background-color: rgba(115, 82, 19, 0.74); */
   }
 
   /*---------------- MAINGRID DIV----------------------*/
@@ -40,7 +41,7 @@
     grid-area: maingridarticle;
     text-align: center;
     display: grid;
-    grid-template-columns: 50% 2fr 2fr !important;
+    grid-template-columns: 63% 0fr 2fr !important;
     grid-template-areas:
       "servicesdiv modeldiv modeldiv"
       "comfortdiv modeldiv modeldiv"
@@ -79,11 +80,13 @@
   .voyagerdiv {
     grid-area: voyagerdiv;
     width: 100%;
+    margin-bottom: 90% !important;
   }
 
   .transfertdiv {
     grid-area: transfertdiv;
     width: 100%;
+    margin-bottom: 11% !important;
   }
 
   .modeldiv {
